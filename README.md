@@ -22,10 +22,16 @@ GameBoard:
 ## Approach
 
  **1. Read initial game status**
-	 *Show ad:*
-	 `showAd()`
-	 *Read Image:*
-	 `let status: GameStatus = readImage(image) -> GameStatus`
+ 
+ *Show ad:*
+ 
+ `showAd()`
+ 
+ 
+ *Read Image:* 
+ 
+ `let status: GameStatus = readImage(image) -> GameStatus`
+	 
 	 
 ```
 GameStatus: [player] = [ X, O, e
@@ -33,9 +39,11 @@ GameStatus: [player] = [ X, O, e
 						 X, e, O ] 
 ```					    
  **2. Create game status and define the best next move**
-
-*Initialize Board game*
-	`Let board = Board( status, player )`
+ 
+ 
+ *Initialize Board game*
+ 
+ `Let board = Board( status, player )`
 
 ```
 Board
@@ -67,5 +75,6 @@ Board
  **3. Hide ad and show suggestion**
 	 
 `hideAd()`
+
 `showMove(bestMove)`
 
