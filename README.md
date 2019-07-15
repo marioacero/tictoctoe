@@ -36,8 +36,8 @@ GameBoard:
 	 
 ```
 GameStatus: [player] = [ X, O, e
-						 O, e, e,
-						 X, e, O ] 
+			 O, e, e,
+			 X, e, O ] 
 ```					    
  **2. Create game status and define the best next move**
  
