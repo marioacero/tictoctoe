@@ -46,11 +46,11 @@ GameStatus: [player] = [ X, O, e
  `Let board = Board( status, player )`
 
 ```
-Board
-	- gameStatus: GameStatus
-	- player: Player
-	- availablePositions: [Int]
-	- makeMove (Int) -> Board
+struct Board
+   - gameStatus: GameStatus
+   - player: Player
+   - availablePositions: [Int]
+   - makeMove (Int) -> Board
 ```
 	 
 	
